@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+nav {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.3); /* Fond blanc semi-transparent */
+    backdrop-filter: blur(10px); /* Effet de flou */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre portée */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: grey;
+}
